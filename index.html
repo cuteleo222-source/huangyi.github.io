@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YI HUANG | Academic Homepage</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f4f7fb;
+      color: #1f2937;
+      line-height: 1.75;
+    }
+
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+      color: white;
+      padding: 72px 20px 56px;
+    }
+
+    .hero {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 160px 1fr;
+      gap: 28px;
+      align-items: center;
+    }
+
+    .avatar {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.18);
+      border: 3px solid rgba(255, 255, 255, 0.45);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 42px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin: 0 auto;
+    }
+
+    .hero-text h1 {
+      margin: 0 0 10px;
+      font-size: 46px;
+      line-height: 1.15;
+    }
+
+    .hero-text p {
+      margin: 0 0 18px;
+      font-size: 19px;
+      opacity: 0.96;
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 18px;
+      border-radius: 999px;
+      font-weight: 600;
+      transition: 0.2s ease;
+    }
+
+    .btn-primary {
+      background: white;
+      color: #1e3a8a;
+    }
+
+    .btn-primary:hover {
+      text-decoration: none;
+      transform: translateY(-1px);
+    }
+
+    .btn-outline {
+      border: 1.5px solid rgba(255, 255, 255, 0.7);
+      color: white;
+    }
+
+    .btn-outline:hover {
+      text-decoration: none;
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    nav {
+      background: white;
+      border-bottom: 1px solid #e5e7eb;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .nav-wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 14px 20px;
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    nav a {
+      font-weight: 600;
+      color: #1e3a8a;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 36px auto 60px;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 18px;
+      padding: 30px;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+      margin-bottom: 24px;
+    }
+
+    h2 {
+      margin-top: 0;
+      margin-bottom: 18px;
+      color: #1e3a8a;
+      font-size: 30px;
+      border-left: 5px solid #3b82f6;
+      padding-left: 14px;
+    }
+
+    .lead {
+      font-size: 17px;
+    }
+
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .tag {
+      background: #eaf2ff;
+      color: #1e40af;
+      border-radius: 999px;
+      padding: 8px 14px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+
+    .paper-list,
+    .project-list {
+      margin: 0;
+      padding-left: 22px;
+    }
+
+    .paper-list li,
+    .project-list li {
+      margin-bottom: 12px;
+    }
+
+    .info-line {
+      margin-bottom: 12px;
+      font-size: 17px;
+    }
+
+    .label {
+      font-weight: 700;
+      color: #111827;
+    }
+
+    footer {
+      text-align: center;
+      color: #6b7280;
+      font-size: 14px;
+      padding: 12px 20px 40px;
+    }
+
+    @media (max-width: 800px) {
+      .hero {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      .hero-text h1 {
+        font-size: 36px;
+      }
+
+      .grid-2 {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-buttons {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="hero">
+      <div class="avatar">YH</div>
+
+      <div class="hero-text">
+        <h1>YI HUANG</h1>
+        <p>PhD Student in Finance | Green Finance | Corporate Finance | Banking Efficiency</p>
+
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#contact">Contact Me</a>
+          <a class="btn btn-outline" href="CV_YI_HUANG.pdf" target="_blank">Download CV</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <div class="nav-wrap">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <main class="container">
+
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p class="lead">
+        Hello, I am YI HUANG. Welcome to my academic homepage.
+        My research mainly focuses on green finance, corporate development,
+        banking efficiency, ESG-related issues, and policy evaluation in China.
+      </p>
+      <p>
+        This website presents my academic profile, research interests,
+        working papers, and contact information.
+      </p>
+    </section>
+
+    <section id="research" class="card">
+      <h2>Research Interests</h2>
+      <div class="tag-list">
+        <span class="tag">Green Finance</span>
+        <span class="tag">Corporate Finance</span>
+        <span class="tag">Banking Efficiency</span>
+        <span class="tag">Policy Evaluation</span>
+        <span class="tag">ESG</span>
+        <span class="tag">Chinese A-share Market</span>
+      </div>
+    </section>
+
+    <section class="grid-2">
+      <div id="publications" class="card">
+        <h2>Publications / Working Papers</h2>
+        <ul class="paper-list">
+          <li>Financial Constraints and the Effectiveness of Green Finance: Evidence from China’s Reform Pilot Zones</li>
+          <li>Green Finance Reform and Bank Efficiency: Evidence from China’s Pilot Zones</li>
+          <li>Green Finance Reform and Corporate Development: Evidence from China’s Green Finance Pilot Zones</li>
+        </ul>
+      </div>
+
+      <div id="projects" class="card">
+        <h2>Projects</h2>
+        <ul class="project-list">
+          <li>Green finance reform and enterprise green innovation</li>
+          <li>Green finance pilot zones and bank efficiency</li>
+          <li>CSR, profitability, and market efficiency in China</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p class="info-line"><span class="label">Email:</span> <a href="mailto:12268857362@qq.com">12268857362@qq.com</a></p>
+      <p class="info-line"><span class="label">GitHub:</span> <a href="https://github.com/cuteleo222-source" target="_blank">github.com/cuteleo222-source</a></p>
+      <p class="info-line"><span class="label">Location:</span> Republic of Korea</p>
+      <p class="info-line"><span class="label">CV:</span> <a href="CV_YI_HUANG.pdf" target="_blank">Open CV</a></p>
+    </section>
+
+  </main>
+
+  <footer>
+    © 2026 YI HUANG. All rights reserved.
+  </footer>
+
+</body>
+</html>
